@@ -8,19 +8,19 @@
 1. Download datasets:
 
     a. Download a data set on all recorded NYC taxi trips on 01/15/2015, from this site:
-    https://github.com/uber-web/kepler.gl-data/blob/master/nyctrips/data.csv
+    [data.csv](https://github.com/uber-web/kepler.gl-data/blob/master/nyctrips/data.csv)
     
-        i. This data set, downloaded from NYC Taxi and Limousine Commission (TLC) website,
+        i. This data set, downloaded from [NYC Taxi and Limousine Commission (TLC) website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page),
         includes yellow and green taxi trip records capturing pick-up and drop-off dates/times,
         pick-up and drop-off locations (latitude, longitude), trip distances, itemized fares, rate
         types, payment types, and driver-reported passenger counts.
 
-    b. Download a data set on NYC restaurant locations (and inspection results) from this link
+    b. Download a data set on NYC restaurant locations (and inspection results) [from this link](https://drive.google.com/file/d/11oMqNz_0aksP_vFXMQhA6a5rrWPshrew/view)
     
         i. The New York City Department of Health and Mental Hygiene (DOHMH) conducts
         unannounced restaurant inspections on an annual basis in order to check for compliance
         with policies on food handling. Data on these restaurant inspection results are publicly
-        available at NYC Open Data and are updated daily. The specific data set for download
+        available at [NYC Open Data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j) and are updated daily. The specific data set for download
         above was accessed on 8/28/17 and contains records from 2014 - 2017. This older data
         was chosen in order to be more aligned with the taxi data, collected in 2015. This is
         important, since there is high turnover in restaurants over time (i.e., many go out of
@@ -29,7 +29,7 @@
         ii. The data set contains information on restaurant name and location, type of food
         (CUISINE DESCRIPTION), inspection date, and details on violation codes, total scores,
         and associated grades. The data is longitudinal in nature, with multiple rows per
-        restaurant representing inspections over time. A full data dictionary is available here.
+        restaurant representing inspections over time. A full data dictionary is available [here](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j).
 
         iii. For the following questions, we will focus on analyzing the locations of restaurants
         (specified by the combination of their building, street, and zipcode features) and not
