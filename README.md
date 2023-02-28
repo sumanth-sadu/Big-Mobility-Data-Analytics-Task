@@ -6,14 +6,17 @@
 
 
 1. Download datasets:
-- Download a data set on all recorded NYC taxi trips on 01/15/2015, from this site:
-https://github.com/uber-web/kepler.gl-data/blob/master/nyctrips/data.csv
+
+    a. Download a data set on all recorded NYC taxi trips on 01/15/2015, from this site:
+    https://github.com/uber-web/kepler.gl-data/blob/master/nyctrips/data.csv
+    
     i. This data set, downloaded from NYC Taxi and Limousine Commission (TLC) website,
     includes yellow and green taxi trip records capturing pick-up and drop-off dates/times,
     pick-up and drop-off locations (latitude, longitude), trip distances, itemized fares, rate
     types, payment types, and driver-reported passenger counts.
 
-  b. Download a data set on NYC restaurant locations (and inspection results) from this link
+    b. Download a data set on NYC restaurant locations (and inspection results) from this link
+    
     i. The New York City Department of Health and Mental Hygiene (DOHMH) conducts
     unannounced restaurant inspections on an annual basis in order to check for compliance
     with policies on food handling. Data on these restaurant inspection results are publicly
