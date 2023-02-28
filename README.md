@@ -1,6 +1,6 @@
 ## Big-Mobility-Data-Analytics-Task
 
-### NOTE: The restaurant data is more than 25Mb so you can download it from : https://drive.google.com/drive/folders/1-dtu8dKx8yH596_hmYEObpNbDChfCiTA?usp=sharing and this data should be present in data folder to execute the .ipynb.
+#### NOTE: The restaurant data is more than 25Mb so you can download it from : https://drive.google.com/drive/folders/1-dtu8dKx8yH596_hmYEObpNbDChfCiTA?usp=sharing and this data should be present in data folder to execute the .ipynb.
 
 ##### The goal of this exercise is to link two longitudinal spatial datasets, to perform some descriptive analyses and visualizations, and to describe how you would set up a predictive model.
 
@@ -10,30 +10,30 @@
     a. Download a data set on all recorded NYC taxi trips on 01/15/2015, from this site:
     https://github.com/uber-web/kepler.gl-data/blob/master/nyctrips/data.csv
     
-    i. This data set, downloaded from NYC Taxi and Limousine Commission (TLC) website,
-    includes yellow and green taxi trip records capturing pick-up and drop-off dates/times,
-    pick-up and drop-off locations (latitude, longitude), trip distances, itemized fares, rate
-    types, payment types, and driver-reported passenger counts.
+        i. This data set, downloaded from NYC Taxi and Limousine Commission (TLC) website,
+        includes yellow and green taxi trip records capturing pick-up and drop-off dates/times,
+        pick-up and drop-off locations (latitude, longitude), trip distances, itemized fares, rate
+        types, payment types, and driver-reported passenger counts.
 
     b. Download a data set on NYC restaurant locations (and inspection results) from this link
     
-    i. The New York City Department of Health and Mental Hygiene (DOHMH) conducts
-    unannounced restaurant inspections on an annual basis in order to check for compliance
-    with policies on food handling. Data on these restaurant inspection results are publicly
-    available at NYC Open Data and are updated daily. The specific data set for download
-    above was accessed on 8/28/17 and contains records from 2014 - 2017. This older data
-    was chosen in order to be more aligned with the taxi data, collected in 2015. This is
-    important, since there is high turnover in restaurants over time (i.e., many go out of
-    business).
-    
-    ii. The data set contains information on restaurant name and location, type of food
-    (CUISINE DESCRIPTION), inspection date, and details on violation codes, total scores,
-    and associated grades. The data is longitudinal in nature, with multiple rows per
-    restaurant representing inspections over time. A full data dictionary is available here.
-    
-    iii. For the following questions, we will focus on analyzing the locations of restaurants
-    (specified by the combination of their building, street, and zipcode features) and not
-    their inspection results.
+        i. The New York City Department of Health and Mental Hygiene (DOHMH) conducts
+        unannounced restaurant inspections on an annual basis in order to check for compliance
+        with policies on food handling. Data on these restaurant inspection results are publicly
+        available at NYC Open Data and are updated daily. The specific data set for download
+        above was accessed on 8/28/17 and contains records from 2014 - 2017. This older data
+        was chosen in order to be more aligned with the taxi data, collected in 2015. This is
+        important, since there is high turnover in restaurants over time (i.e., many go out of
+        business).
+
+        ii. The data set contains information on restaurant name and location, type of food
+        (CUISINE DESCRIPTION), inspection date, and details on violation codes, total scores,
+        and associated grades. The data is longitudinal in nature, with multiple rows per
+        restaurant representing inspections over time. A full data dictionary is available here.
+
+        iii. For the following questions, we will focus on analyzing the locations of restaurants
+        (specified by the combination of their building, street, and zipcode features) and not
+        their inspection results.
 
 For the following questions, make the assumption that all taxi trip destinations during lunchtime (11:30am -
 2pm) and dinnertime (5pm - 9pm) were to restaurants.
